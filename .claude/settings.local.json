@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(icacls:*)",
+      "Bash(cmd /c \"echo test > c:\\\\inetpub\\\\wwwroot\\\\digitalhealth-th\\\\test.txt\")",
+      "Bash(powershell -Command:*)",
+      "Bash(node --version:*)",
+      "Bash(npm --version:*)",
+      "Bash(npm create:*)",
+      "Bash(npx create-vite@latest --template react .)",
+      "Bash(echo:*)",
+      "Bash(npx create-vite@latest:*)",
+      "Bash(npm install:*)",
+      "Bash(npx tailwindcss:*)",
+      "Bash(npm run build:*)",
+      "Bash(pkill:*)",
+      "Bash(curl:*)",
+      "Bash(git init:*)",
+      "Bash(git remote add:*)",
+      "Bash(git checkout:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git config:*)"
+    ]
+  }
+}
