@@ -35,10 +35,10 @@ export default function Portfolio({ limit }) {
             Portfolio
           </span>
           <h2 className="text-3xl md:text-4xl font-extrabold text-primary dark:text-white mb-3">
-            ผลงานที่ผ่านมา
+            ระบบที่ใช้งานจริงในโรงพยาบาล
           </h2>
           <p className="text-gray-500 dark:text-gray-400 max-w-lg mx-auto">
-            ระบบที่ใช้งานจริงในโรงพยาบาลรัฐและเอกชน คลิกดูรายละเอียดแต่ละโปรเจกต์
+            ผลงานจริงในโรงพยาบาลรัฐและเอกชน ไม่ใช่แค่ Demo คลิกดูรายละเอียดแต่ละโปรเจกต์
           </p>
         </motion.div>
 

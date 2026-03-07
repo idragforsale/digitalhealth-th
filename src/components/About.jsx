@@ -37,7 +37,7 @@ export default function About() {
             ทำไมโรงพยาบาลถึงเลือก DigitalHelp
           </h2>
           <p className="text-gray-500 dark:text-gray-400 max-w-lg mx-auto">
-            เราไม่ใช่บริษัท Software ทั่วไป — แต่เป็นทีม Hospital IT ที่พัฒนาระบบจากประสบการณ์จริงในโรงพยาบาล
+            เราไม่ใช่ Software House ทั่วไป แต่เป็นทีม Hospital IT ที่พัฒนาระบบจากประสบการณ์จริงในโรงพยาบาล
           </p>
         </motion.div>
 

@@ -35,9 +35,9 @@ function Counter({ target, suffix = '+', label }) {
 export default function StatsCounter() {
   return (
     <div className="flex flex-wrap gap-10 justify-center mt-16">
-      <Counter target={10} label="โปรเจกต์สำเร็จ" />
-      <Counter target={5} label="โรงพยาบาลใช้งาน" />
-      <Counter target={3} label="ปีประสบการณ์ Hospital IT" />
+      <Counter target={40} label="โปรเจกต์สำเร็จ" />
+      <Counter target={30} label="โรงพยาบาลใช้งาน" />
+      <Counter target={9} label="ปีประสบการณ์ Hospital IT" />
     </div>
   )
 }

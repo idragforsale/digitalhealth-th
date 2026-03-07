@@ -3,10 +3,10 @@ import { motion } from 'framer-motion'
 import { Mail, Phone, MapPin, Clock, Send } from 'lucide-react'
 
 const info = [
-  { Icon: Mail,    label: 'อีเมล',              value: 'contact@digitalhealth-th.com' },
-  { Icon: Phone,   label: 'โทรศัพท์ / LINE',    value: '08X-XXX-XXXX' },
-  { Icon: MapPin,  label: 'ที่ตั้ง',             value: 'กรุงเทพมหานคร / บริการทั่วประเทศ' },
-  { Icon: Clock,   label: 'เวลาทำการ',           value: 'จันทร์-ศุกร์ 08:30 – 17:30 น.' },
+  { Icon: Mail,    label: 'อีเมล',              value: 'taycrub@hotmail.com' },
+  { Icon: Phone,   label: 'โทรศัพท์ / LINE',    value: '087-775-5767, ngngprogrammer' },
+  { Icon: MapPin,  label: 'ที่ตั้ง',             value: 'หนองคาย / บริการทั่วประเทศ' },
+  { Icon: Clock,   label: 'เวลาทำการ',           value: '24 ชั่วโมง' },
 ]
 
 const techStack = ['Node.js', 'PHP', 'React', 'Vue', 'MySQL', 'MSSQL', 'Tailwind', 'Docker']
@@ -49,8 +49,8 @@ export default function Contact() {
           <span className="inline-block bg-sky-500/20 text-sky-300 text-xs font-bold px-4 py-1.5 rounded-full mb-3 uppercase tracking-wide">
             Contact Us
           </span>
-          <h2 className="text-white text-3xl md:text-4xl font-extrabold mb-3">ติดต่อขอรับ Demo ฟรี</h2>
-          <p className="text-white/50 max-w-md mx-auto">บอกความต้องการ เราจะเสนอแนวทางที่เหมาะสมที่สุดให้คุณ</p>
+          <h2 className="text-white text-3xl md:text-4xl font-extrabold mb-3">ขอ Demo ระบบฟรี</h2>
+          <p className="text-white/50 max-w-md mx-auto">บอกความต้องการ เราจะเสนอแนวทางที่เหมาะสมที่สุดให้คุณ ตอบกลับภายใน 1 วันทำการ</p>
         </motion.div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">

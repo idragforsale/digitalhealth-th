@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion'
 import StatsCounter from './StatsCounter'
+import TechStackBg from './TechStack'
 
 const containerVariants = {
   hidden: {},
@@ -16,6 +17,9 @@ export default function Hero() {
       id="hero"
       className="gradient-hero dot-bg relative min-h-screen flex items-center justify-center text-center px-6 pt-24 pb-16 overflow-hidden"
     >
+      {/* Faint tech icons background */}
+      <TechStackBg />
+
       {/* Animated background orbs */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none">
         <motion.div
@@ -42,24 +46,25 @@ export default function Hero() {
           variants={itemVariants}
           className="inline-block bg-sky-500/20 border border-sky-400/40 text-sky-300 text-xs font-semibold px-4 py-1.5 rounded-full mb-6 tracking-wide"
         >
-          🏥 Digital Health Technology Specialist
+          💻 Digital Help เราช่วยได้
         </motion.span>
 
         <motion.h1
           variants={itemVariants}
           className="text-white text-4xl md:text-6xl font-extrabold leading-tight mb-4"
         >
-          รับพัฒนาระบบ<br />
-          <span className="text-sky-400">โรงพยาบาล</span><br />
-          ที่เข้าใจ Workflow จริง
+          พัฒนาระบบดิจิทัลสำหรับองค์กร
+ <span className="text-sky-400"> ภาครัฐ เอกชน <br />และโรงพยาบาล</span><br />
+          
         </motion.h1>
 
         <motion.p
           variants={itemVariants}
           className="text-white/70 text-lg md:text-xl max-w-2xl mx-auto mb-10"
         >
-          ทีมที่มีประสบการณ์ตรงจาก Hospital IT —{' '}
-          Dashboard, Digital Consent, HR, Appointment และ IoT ครบวงจร
+          ประสบการณ์ร่วมงาน ภาครัฐ เอกชน และรัฐวิสาหกิจ 
+          เข้าใจ Workflow การทำงานจริง โดยเฉพาะระบบสารสนเทศโรงพยาบาล (HIS)<br />
+          <span className="text-white/50 text-base">Dashboard • Digital Consent • HR System • Appointment System • IoT</span>
         </motion.p>
 
         <motion.div
@@ -72,7 +77,7 @@ export default function Hero() {
             whileTap={{ scale: 0.97 }}
             className="bg-sky-500 hover:bg-sky-600 text-white font-bold px-8 py-3.5 rounded-xl transition-colors"
           >
-            ดูผลงานของเรา
+            ดูผลงานระบบ
           </motion.a>
           <motion.a
             href="/contact"
@@ -80,8 +85,19 @@ export default function Hero() {
             whileTap={{ scale: 0.97 }}
             className="border-2 border-white/40 hover:border-white text-white font-semibold px-8 py-3.5 rounded-xl transition-colors hover:bg-white/10"
           >
-            ขอ Demo ฟรี
+            ขอ Demo ระบบฟรี
           </motion.a>
+        </motion.div>
+
+        <motion.div
+          variants={itemVariants}
+          className="flex flex-wrap justify-center gap-x-6 gap-y-2 mt-6 mb-2"
+        >
+          {['ทีมพัฒนา Hospital IT โดยตรง', 'เชื่อมต่อ HIS ได้', 'รองรับ OPD / IPD / ER', 'PDPA Compliant'].map((t) => (
+            <span key={t} className="flex items-center gap-1.5 text-white/50 text-xs">
+              <span className="text-emerald-400 font-bold">✓</span> {t}
+            </span>
+          ))}
         </motion.div>
 
         <motion.div variants={itemVariants}>

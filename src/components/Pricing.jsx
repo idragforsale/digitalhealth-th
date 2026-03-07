@@ -48,7 +48,7 @@ export default function Pricing() {
             แพ็กเกจราคา
           </h2>
           <p className="text-gray-500 dark:text-gray-400 max-w-lg mx-auto">
-            โปร่งใส ไม่มีค่าใช้จ่ายแอบแฝง ราคาตามขอบเขตงานจริง
+            ราคาเริ่มต้นตามขอบเขตงาน — โปร่งใส ไม่มีค่าใช้จ่ายแอบแฝง
           </p>
         </motion.div>
 

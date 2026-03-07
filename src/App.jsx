@@ -9,7 +9,7 @@ import ContactPage from './pages/ContactPage'
 export default function App() {
   return (
     <ThemeProvider>
-      <BrowserRouter basename="/QDSM-public">
+      <BrowserRouter basename={import.meta.env.PROD ? '/digitalhelp' : '/'}>
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-1">
