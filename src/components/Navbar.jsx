@@ -34,7 +34,7 @@ export default function Navbar() {
     >
       {/* Logo */}
       <Link to="/" className="text-white font-extrabold text-xl tracking-tight">
-        Digital<span className="text-sky-400">Health-TH</span>
+        Digital<span className="text-sky-400">Help</span>
       </Link>
 
       {/* Desktop links */}
